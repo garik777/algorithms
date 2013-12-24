@@ -5,7 +5,9 @@ using System.Text;
 
 /*
 Solutions for finding a value in a 2d Matrix
-
+1: linear search O(n^2)
+2: binary search O(nlgn)
+3: left down O(n)
 */
 namespace ConsoleAlgorithmsPrep
 {
@@ -30,6 +32,7 @@ namespace ConsoleAlgorithmsPrep
             //2: binary search O(nlgn)
             //3: left down O(n)
 
+            //todo: implement left down approach
             Test2Matrix(matrix2d);
 
            

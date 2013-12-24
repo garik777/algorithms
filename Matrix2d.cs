@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+/*
+Solutions for finding a value in a 2d Matrix
+
+*/
 namespace ConsoleAlgorithmsPrep
 {
     class Matrix2D
@@ -20,7 +24,6 @@ namespace ConsoleAlgorithmsPrep
                 new int [] {22,26,28,49,54,59,110,140,149}
             };
 
-            Console.WriteLine("Which Fibonacci number do you want to calculate?");
 
             //solutions
             //1: linear search O(n^2)

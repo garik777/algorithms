@@ -53,19 +53,29 @@ namespace ConsoleAlgorithmsPrep
 
 			Console.WriteLine ();
 			Console.WriteLine("Test Recursive Binary search Matrix find");
-			Console.WriteLine("does 10 exists = {0}, does 95 exists = {1}, does 59 exists = {2}, does 87 exists = {3}",
+			Console.WriteLine("{0}, {1}, {2},{3}, {4}, {5}, {6}, {7}",
 				FindInRecursiveBinarySorted2Matrix(matrix2d, 10),
-				FindInRecursiveBinarySorted2Matrix(matrix2d, 95),
-				FindInRecursiveBinarySorted2Matrix(matrix2d, 59),
-				FindInRecursiveBinarySorted2Matrix(matrix2d, 87));
+				FindInRecursiveBinarySorted2Matrix(matrix2d, 83),
+				FindInRecursiveBinarySorted2Matrix(matrix2d, 120),
+				FindInRecursiveBinarySorted2Matrix(matrix2d, 87),
+				FindInRecursiveBinarySorted2Matrix(matrix2d, 77),
+				FindInRecursiveBinarySorted2Matrix(matrix2d, 96),
+				FindInRecursiveBinarySorted2Matrix(matrix2d, 28),
+				FindInRecursiveBinarySorted2Matrix(matrix2d, 110));
+
 
 			Console.WriteLine ();
-			Console.WriteLine("Test Left Down  search Matrix find");
-			Console.WriteLine("does 10 exists = {0}, does 95 exists = {1}, does 59 exists = {2}, does 87 exists = {3}",
+			Console.WriteLine("Test Left Down  search Matrix find");	
+
+			Console.WriteLine("{0}, {1}, {2},{3}, {4}, {5}, {6}, {7}",
 				FindInLeftDownSorted2DMatrix(matrix2d, 10),
-				FindInLeftDownSorted2DMatrix(matrix2d, 95),
-				FindInLeftDownSorted2DMatrix(matrix2d, 59),
-				FindInLeftDownSorted2DMatrix(matrix2d, 87));
+				FindInLeftDownSorted2DMatrix(matrix2d, 83),
+				FindInLeftDownSorted2DMatrix(matrix2d, 120),
+				FindInLeftDownSorted2DMatrix(matrix2d, 87),
+				FindInLeftDownSorted2DMatrix(matrix2d, 77),
+				FindInLeftDownSorted2DMatrix(matrix2d, 96),
+				FindInLeftDownSorted2DMatrix(matrix2d, 28),
+				FindInLeftDownSorted2DMatrix(matrix2d, 110));
 
 
         }
